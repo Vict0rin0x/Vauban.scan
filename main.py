@@ -155,6 +155,4 @@ def eelMain():
 
     return JSONnG
 
-#Command to show html page of results. Page might be blank at first, when the script is working
-#I put firefox because it only works like that. Change it or delete it as you wish
-eel.start('results.php',mode='firefox')
+eel.start('results.php')
